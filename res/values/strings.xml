@@ -4,5 +4,9 @@
     <string name="app_name">CS188AssignD</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="title_activity_clayton">ClaytonActivity</string>
+    <string name="clayton_name">Clayton</string>
+    <string name="adam_name">Adam</string>
+    <string name="ross_name">Ross</string>
 
 </resources>
