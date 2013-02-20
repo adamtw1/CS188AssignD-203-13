@@ -26,6 +26,10 @@
             android:name="edu.drake.cs188assignd.ClaytonActivity"
             android:label="@string/title_activity_clayton" >
         </activity>
+        <activity
+            android:name="edu.drake.cs188assignd.RossActivity"
+            android:label="@string/title_activity_ross" >
+        </activity>
     </application>
 
 </manifest>

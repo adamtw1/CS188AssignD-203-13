@@ -8,5 +8,7 @@
     <string name="clayton_name">Clayton</string>
     <string name="adam_name">Adam</string>
     <string name="ross_name">Ross</string>
+    <string name="title_activity_ross">RossActivity</string>
+    <string name="clayton_string">Clayton</string>
 
 </resources>

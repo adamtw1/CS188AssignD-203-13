@@ -11,6 +11,7 @@ import android.widget.Button;
 public class ClaytonActivity extends Activity {
 
 private static final String TAG = "MainActivity";
+private static final String TAG2 = "RossActivity";
 	
 	Button buttonAdam;
 	Button buttonRoss;
@@ -35,9 +36,9 @@ private static final String TAG = "MainActivity";
 		buttonRoss.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Log.v(TAG, "third pressed");
+				Log.v(TAG2, "third pressed");
 				//change MainActivity to Ross's Activity
-				Intent intent = new Intent(v.getContext(), MainActivity.class);
+				Intent intent = new Intent(v.getContext(), RossActivity.class);
 				startActivity(intent);
 			}
 		});
