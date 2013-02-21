@@ -5,6 +5,7 @@
     tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -20,12 +21,12 @@
         android:layout_marginBottom="52dp"
         android:text="@string/clayton_string" />
 
-    <ImageView
-        android:id="@+id/imageView1"
+    <AnalogClock
+        android:id="@+id/analogClock1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:src="@raw/adam" />
+        android:layout_above="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp" />
 
 </RelativeLayout>
